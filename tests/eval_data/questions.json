@@ -1,0 +1,17 @@
+[
+ {"question": "What does error code E101 mean?", "file": "robot_manual.md", "keyword": "overheating", "answerable": true},
+ {"question": "How long does the robot battery take to charge?", "file": "robot_manual.md", "keyword": "3 hours", "answerable": true},
+ {"question": "Where is the emergency stop button located?", "file": "robot_manual.md", "keyword": "red button", "answerable": true},
+ {"question": "How do I update the robot firmware?", "file": "robot_manual.md", "keyword": "USB", "answerable": true},
+ {"question": "How many vacation days does every employee receive per year?", "file": "hr_policy.md", "keyword": "24", "answerable": true},
+ {"question": "When is a medical certificate required for sick leave?", "file": "hr_policy.md", "keyword": "3 days", "answerable": true},
+ {"question": "How many days per week may employees work remotely?", "file": "hr_policy.md", "keyword": "2 days", "answerable": true},
+ {"question": "Within how many days must expense reports be submitted?", "file": "hr_policy.md", "keyword": "14 days", "answerable": true},
+ {"question": "What is the passing score for the exam?", "file": "exam_rules.md", "keyword": "50 points", "answerable": true},
+ {"question": "How many times can a student retake a failed exam?", "file": "exam_rules.md", "keyword": "2 times", "answerable": true},
+ {"question": "How many minutes late is a student not admitted to the exam?", "file": "exam_rules.md", "keyword": "15 minutes", "answerable": true},
+ {"question": "Within how many days must a grade appeal be filed?", "file": "exam_rules.md", "keyword": "3 days", "answerable": true},
+ {"question": "What is the capital city of Australia?", "answerable": false},
+ {"question": "Who won the football world cup in 2018?", "answerable": false},
+ {"question": "How do I bake a chocolate cake with strawberries?", "answerable": false}
+]
