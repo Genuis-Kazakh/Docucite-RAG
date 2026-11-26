@@ -1,9 +1,16 @@
 # DocuCite RAG
+Document Q&A that answers **only from your uploaded files**, with strict citations (file + page/section).
+If the documents don't contain the answer, it says so.
 
-Document Q&A that answers **only from your uploaded files** and cites the source
-(file + page/section). If the documents don't contain the answer, it says so.
+![DocuCite UI](docs/images/ui_main.png)
 
-**Stack:** Python, FastAPI, SQLite, FAISS, Sentence-Transformers, any OpenAI-compatible LLM API, Pytest.
+**Full documentation (architecture, modules, evaluation, problems solved): [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md)**
+
+| Evaluation (15 questions, real embeddings + Gemini 3.5 Flash Lite) | Result |
+|---|---|
+| Retrieval Recall@4 | 12/12 (100%) |
+| Answer Faithfulness | 11/12 (92%), one miss caused by a faulty test keyword, see the docs |
+| Correct abstention | 3/3 (100%) |
 
 ## Architecture
 ```

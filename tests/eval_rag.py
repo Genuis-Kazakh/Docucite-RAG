@@ -57,6 +57,8 @@ def main() -> int:
             recall += r_ok
             faithful += f_ok
             print(f"[{'PASS' if r_ok and f_ok else 'FAIL'}] recall={int(r_ok)} faithful={int(f_ok)} | {q['question']}")
+        if not (r_ok and f_ok):
+            print(f"      expected: {q['keyword']!r} in {q['file']} | got: {resp.answer[:160]!r}")
         for q in no_q:
             resp = ask(q["question"])
             ok = not resp.answerable
